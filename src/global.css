@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #dddddd;
+  color: #000;
+}
+
+.ui.modal.transition.visible.active {
+  top: 30%;
+  width: 660px;
+  height: auto;
+  border: none;
+  padding-bottom: 20px;
+}
+
+.ui.button, .ui.buttons .button {
+  color: #fff !important;
+  text-shadow: none;
+  cursor: pointer !important;
+  background-color: #FF5151 !important;
+  border-radius: 8px !important;
+}
+
+.ui.inverted.button {
+  color: #000 !important;
+  background-color: #FFF !important;
+  border: 1px solid #999999  !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  text-shadow: none !important;
+}
+
+.ui.modal>.actions {
+  background: none !important;
+  padding: 1rem 1rem;
+  border-top: none !important;
+  text-align: right;
+}
+
+/* .exhDyV {
+  top: 30%;
+  width: 98% !important;
+  height: 35% !important;
+  box-sizing: border-box;
+  margin: 1% !important;
+  background: #FFFFFF;
+  border: none !important;
+  padding: 12px !important;
+  border-radius: 16px;
+} */
+@media (max-width: 420px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (min-width: 421px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (min-width: 820px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 1240px) {
+  html {
+    font-size: 106.25%;
+  }
+}
+
+@media (min-width: 1660px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media (min-width: 1820px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media (min-width: 2340px) {
+  html {
+    font-size: 150%;
+  }
+}
